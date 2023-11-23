@@ -1,7 +1,9 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+En el ejemplo 05 lo que esta haciendo es declarar varias variables que despues 
+se les otorgan un valor, tambien crean un contador con valor 1, luego resultado
+es igual a resultado resultado por el valor de numero, y al contador se le asigna 
+que sume 1, luego condiciona que mientras contador sea menor o igual a potencia,
+se imprimira la operacion.
  */
 package ejemplos01;
 

@@ -29,10 +29,13 @@ public class Ejemplo06 {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
         int tabla;
+        System.out.println("Ingrese la tabla");
+        tabla = entrada.nextInt();
         int operacion;
         int contador = 1;
         int limite;
-        
+        System.out.println("Ingrese el limite");
+        limite = entrada.nextInt();
         do {
             operacion = tabla * contador;
             System.out.printf("%d x %d = %d\n", tabla, contador, operacion);
